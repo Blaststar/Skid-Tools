@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html oncontextmenu="return false;">
 <head>
- <title>Order Verifier</title>
+ <title>Skid-Tools</title>
+ <meta content="Skid-Tools" property="og:title" />
+ <meta content="Official website of Skid-Tools." property="og:description" />
+ <meta content="https://blaststar.github.io/Skid-Tools" property="og:url" />
+ <meta content="https://cdn.discordapp.com/attachments/929133475695575103/935687963432587355/skid-tools_FINAL_server_pfp.jpg" property="og:image" />
+ <meta content="#5865F2" data-react-helmet="true" name="theme-color" />
  <link rel="icon" href="Skid-Image.jpg" type="image/icon type">
  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=IXbrIZm-XPiE1omXiz98q4m1FKMHbr7fhBUZ2dOsB3D66cjyF1BF9JuiPbNEvKNnqDOHc7rQm8wMzjz9AfC0yHhmPfDS_J1dEbMSvGT4zYq71DxBvFAswT5QjV64_lipaML_66o6-91PTKyHPvYPSw" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9jZG4uZGlzY29yZGFwcC5jb20vYXR0YWNobWVudHMvNjQ2MTg5NjM1OTk4OTczOTYzLzc5MzI2MzA5NjAwODI3ODAzNi9sb2dpbi5odG1s"/><style>
   body {
@@ -24,22 +29,22 @@
 <body>
 <center>
 <img src = "Skid-Image.jpg" alt = "SkidTools" height="250" width="350">
-<p style="font-size: 23px; color: whitesmoke;" id="text">Fill in all fields to verify order.</p>
-<p style="font-size: 20px; color: whitesmoke;">Hwid <input id="hwid" type="text" placeholder="Hardware id"/></p>
-<p style="font-size: 20px; color: whitesmoke">Key <input id="key" type="text" placeholder="Product key"/></p>
+<p style="font-size: 25px; color: whitesmoke;">Welcome to the official website of Skid-Tools!</p>
 <p></p>
-<button onclick='VerifyOrder();'>Verify Order</button>
+<script>
+    function SwitchPage(page) {
+      window.location.href=page;  
+    }
+  </script>
 <p></p>
-<u style="font-size: 25px; color: whitesmoke">Reminder</u>
+<u style="font-size: 35px; color: whitesmoke">Links</u>
 <p></p>
-<p style="font-size: 18px; color: whitesmoke;">Stay in the page until you get an alert otherwise your order wont be verified!</p>
+<button onclick="SwitchPage(`https://sellix.io/Skid-Tools`)">Shop</button>
+<button onclick="SwitchPage(`https://discord.gg/2KkGmzVFqW`)">Discord</button>
 <p></p>
-<u style="font-size: 25px; color: whitesmoke">How to get HWID</u>
+<button onclick="SwitchPage(`verify.html`)">Order Verifier</button>
+<button onclick="SwitchPage(`reset.html`)">Hwid Resetter</button>
 <p></p>
-<p style="font-size: 18px; color: whitesmoke;">In order to get your hwid download hwid finder which you can get <a style="font-size: 18px;" href="https://github.com/Blaststar/HWID-Finder">here</a>.</p>
-<p style="font-size: 18px; color: whitesmoke;">Download HWID-Finder.rar after that extract the rar file, open HWID-Finder.bat, then your hwid will be sent in the console.</p>
-<p style="font-size: 18px; color: whitesmoke;">Reminder: In order to use HWID-Finder you must have <a style="font-size: 18px;" href="https://nodejs.org/">nodejs</a> installed.</p>
 </center>
-<script src= "script.js"></script> 
 </body>
 </html>
